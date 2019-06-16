@@ -1,0 +1,163 @@
+html {
+	font-family: 'Merriweather', serif;
+}
+body {
+	line-height: 1;
+	font-family: 'Merriweather', serif;
+	background-image: url("bg.jpg");
+}
+small {
+	font-size: 16px;
+}
+label {
+	margin-bottom: 0;
+}
+input, textarea {
+	margin-top: 5px;
+}
+button {
+	padding: 5px;
+}
+
+#bot-wrap {
+	height: 400px;
+	width: 350px;
+	border: 2px solid;
+	border-radius: 5px;
+	bottom: 0px;
+	background: #92b2a4;
+	transition: all 1s;
+	right: -350px;
+	transform: translateX(-350px);
+
+}
+
+#bot-wrap2 {
+	height: 400px;
+	width: 350px;
+	border: 2px solid;
+	border-radius: 5px;
+	bottom: 0px;
+	background: #92b2a4;
+	transition: all 1s;
+	right: 350px;
+	display: none;
+}
+
+#bot-close  {
+	height: auto;
+	width: auto;
+	font-size: 32px;
+	line-height: 1.5;
+	padding: 0;
+	border: 2px solid;
+	border-radius: 5px;
+	bottom: 0px;
+	right: 0px;
+	background: #92b2a4;
+	transition: all 1s;
+	transform: translateX(-350px);
+}
+
+
+#questions-box, #doctors-box {
+	background-color: #e6eef2;
+	border: 1px solid;
+	border-radius:5px;
+	margin-top: 5px;"
+	padding: 5px;
+}
+
+.doc-box {
+	background-color: #e6eef2;
+	border: 1px solid;
+	border-radius: 5px;
+	margin: 5px;
+}
+.que{
+	padding: 5px;
+}
+
+#btn-adddoctor, #btn-addquestion, .delque {
+	background-color: #deecf2;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+.form-row {
+	margin: 10px;
+}
+
+#companyname {
+	margin:15px;
+	margin-top: 25px;
+	padding:0;
+	bottom: 0;
+	font-size: 12px;
+}
+
+#bot-msgbox, #bot-msgbox2 {
+	background-color: #eaeaea;
+	height: 70%;
+	width: 90%;
+	border: 1px solid;
+	border-radius: 5px;
+	overflow-y: scroll;
+	padding: 5px;
+	margin-top: 10px;
+}
+#bot-msgbox2 {
+	height: 80%
+}
+
+
+
+.botmsg {
+	border-radius: 10px;
+	background:#dae2c7;
+	padding:5px;
+	width:80%;
+	float:left;
+	font-size: 12px;
+}
+
+#hellomsg {
+	margin-top: 40px;
+}
+
+#sendmsg {
+	background-color: #92b2a4;
+	margin-top: 5px;
+	border-radius: 5px;
+	outline: none;
+	height: 100%;
+}
+
+.msgsent {
+	border-radius: 10px;
+	background:#d5e0f2;
+	padding:5px;
+	width:80%;
+	float:right;
+	font-size: 12px;
+}
+
+.doc-zapis {
+	border-radius: 5px;
+	background:#d5e0f2;
+	margin: 5px;
+}
+
+#btn-quickquestions {
+	position: fixed;
+}
+
+.dropdown-item {
+	font-size: 12px;
+	word-wrap: break-word;
+	white-space: normal !important;
+}
+
+#div-quickquestions{
+	width: 300px;
+}
